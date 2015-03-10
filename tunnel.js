@@ -1,4 +1,4 @@
-Tunnel = function(targetWindow, domain, name){
+wsmTunnel = function(targetWindow, domain, name){
     var connect = $.Deferred();
     var tthis = this;
     var name = name === undefined ? 'tunnel' : 'tunnel_'+name;
